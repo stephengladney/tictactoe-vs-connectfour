@@ -1,0 +1,48 @@
+h1 {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+.prompt {
+    margin: auto;
+    height: 25%;
+    width: 75%;
+    position: absolute;
+    left: 12%;
+    top: 37%;
+    text-align: center;
+}
+.board-cell {
+    height: 65px;
+    width: 65px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin: 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+.board-cell:hover {
+    border-color: #ff0000;
+}
+
+button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.piece {
+    font-size: 60px;
+    cursor: default;
+}
+
+#brag {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .75em;
+    color: #999999;
+}
